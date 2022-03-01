@@ -1,17 +1,31 @@
-# Aprendizagem-PT
-print("Welcome to my quiz!")
+#-----VARÁVEIS:-----
 
-playing = input("Do you want to play? ")
+print("Hello world")
 
-if playing.lower() != "yes":
-    quit()
+name = "beginning"
+print("Im " + name)
 
-print("Okay! Let's play!")
-score = 0
+#Com números pode ser string =str ou pode ser int dependendo das aspas
+#Com aspas é str sem é int(int só pode ser numeros)
+age1 = "21"
+age2 = 21
+#print(type(age1))
 
-answer = input("What is my favorite color? ")
-if answer.lower() == "purple":
-    print('Correct!')
-    score += 1
-else:
-  print("Incorrect!")
+First_name = "Luis "
+Last_name = "Oliveira "
+Full_name = First_name + Last_name
+
+print("My name is: " + (Full_name))
+print("My age is: "+str(age2))
+#print(type(Full_name))
+
+#Não podemos ixibir mensgens como por exp: print(Last_name + age2)
+#Porque se verificarmos as variáveis o tipo de dados delas são diferentes
+
+
+height = 1.70
+print("My height is: "+str(height)+"M")
+#print(type(height))
+
+#Neste caso temos uma variavel de tipo float
+#É considerada flot porque tem números decimais
