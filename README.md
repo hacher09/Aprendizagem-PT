@@ -47,3 +47,60 @@ Comedor = Feliz = Brincalhão = True
 print("Eu sou comedor: "+str(Comedor))
 print("Eu sou feliz: "+str(Feliz))
 print("Eu sou brincalhão: "+str(Brincalhão))
+
+#---------Todos os tipos de str--------
+
+name = "luis"
+
+print(len(name))
+
+#len diz o número de caracteres da variável
+
+print(name.find("i"))
+
+#find diz o numero do caracter a começar do zero
+
+print(name.capitalize())
+
+#capitalize faz com que o primeiro caracter muda para maiúscula
+
+print(name.upper())
+
+#upper foz com que todos os caracteres fiquem em maiúsculas
+
+name2 = "LUIS"
+age = "12"
+
+print(name2.lower())
+
+#lower faz com que todos os caracteres maiúculos fiquem minúculos
+
+print(name.isdigit())
+#OU
+print(age.isdigit())
+
+#esdigit dirá se é True or False dependendo se for números ou palavaras
+#Com números = True
+#Com plavras = False
+
+name5 = "Luis Oliveira"
+name10 = "LuisOliveira"
+
+print(name5.isalpha())
+print(name10.isalpha())
+
+#isalpha serve para ver se tem espaço ou não a variável
+#Com espaço = False
+#Sem espaço = True
+
+print(name5.count("i"))
+
+#count serve para contar o número de caracteres da letra que escolhermos
+
+print(name5.replace("i", "a"))
+
+#replace serve para substituir uma letra por outra
+
+print(name*2)
+
+# * + algum nº serve para multiplicar a variável
