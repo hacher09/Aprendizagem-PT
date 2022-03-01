@@ -29,3 +29,21 @@ print("My height is: "+str(height)+"M")
 
 #Neste caso temos uma variavel de tipo float
 #É considerada flot porque tem números decimais
+# ------Várias variáveis em uma linha de código:---
+#name = "Luis"
+#age = 12
+#sexy = True
+
+#É igual a:
+
+name, age, sexy = "Luis", 12, True
+
+print(name)
+print(age)
+print(sexy)
+
+Comedor = Feliz = Brincalhão = True
+
+print("Eu sou comedor: "+str(Comedor))
+print("Eu sou feliz: "+str(Feliz))
+print("Eu sou brincalhão: "+str(Brincalhão))
