@@ -104,3 +104,4 @@ print(name5.replace("i", "a"))
 print(name*2)
 
 # * + algum nº serve para multiplicar a variável
+
